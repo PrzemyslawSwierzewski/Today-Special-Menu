@@ -1,4 +1,3 @@
-
 let menu ={
   _meal:'',
   _price:0,
@@ -21,5 +20,6 @@ let menu ={
   }
 };
 
-
-
+menu._meal='pizza';
+menu._price=7.5;
+console.log(menu.todaysSpecial)
